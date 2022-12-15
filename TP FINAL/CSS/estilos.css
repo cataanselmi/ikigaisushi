@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#Menu{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    font-family: 'Shanti', sans-serif;
+    font-size: larger;
+    background-color: #000000;
+ }
+ 
+ /*selector descendente*/
+ /*reset del ul, se saca relleno, viñeta y margen*/
+ #Menu ul{
+     list-style-type: none;
+     padding-left: 0;
+     margin: 0;
+     display: flex;
+ }
+
+
+#Menu li{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff2f2;
+}
+
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff2f2;
+}
+
+.boton {
+    color: #fff2f2;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.h1-index{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 80px;
+    color: #000000;
+    margin: 0;
+}
+
+.p-index{
+    text-align: center;
+    font-size: 40px;
+    color: #000000;  
+    margin: 0;
+    padding-bottom: 50px;
+
+}
+
+.background-index{
+    background-image: url(../FOTOS/paginaprincipal.jpg);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.portada-principal{
+    background-color: #000000;
+    margin: 0;
+    padding: 10px;
+}
+
+.fila-principal{
+    display: flex;
+    margin-right: auto;
+    color: #fff2f2;
+}
+
+.portada-principal .fila-principal {
+    align-items: center;
+}
+
+#sushiblog{
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.fila > div{
+    color: #000000;
+    display: inline-block;
+    justify-content: center;
+}
+
+.fila > div > p{
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.fila > div > h2{
+    width: 400px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.font-size{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 80px;
+    color: #000000;
+    margin: 0; 
+}
+
+.advertisement{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    background-image: url(../FOTOS/Japan-2020.jpg);
+    
+}
+
+.advertisement > div > h1{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 40px;
+    color: #000000;
+    margin: 0;
+}
+
+.advertisement > div > h2{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+}
+
+.advertisement > div > h3{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+
+/*CHEF*/
+.fila{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    color: #fff2f2;
+}
+
+.portada .fila {
+    width:800px;
+    align-items: center;
+}
+
+.h1-chef{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.body-chef{
+    background-color: #000000;
+}
+
+/*ABOUT US*/
+
+.background-aboutus{
+    background-color: #000000;
+    background-image: url(../FOTOS/aboutussecond.jpg);
+}
+
+
+.text{
+    width: 1000px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff2f2;
+}
+
+.h1-aboutus{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 80px;
+    color: #fff2f2;
+    margin: 0;
+}
+
+.h2-aboutus{
+    color: #fff2f2;
+}
+
+#map{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+
+/*GALERIA*/
+
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.g-img{
+    padding: 0 20px 20px;
+}
+
+img:hoover{
+    opacity: .8 ;
+    transition: .9s;
+}
+
+.text-gall{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 80px;
+    color: #000000;
+    margin: 0;
+}
+
+/*REVIEW*/
+
+.background-review{
+    background-color: #000000;
+    color: #fff2f2;
+}
+
+.font-size-review{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 80px;
+    color: #fff2f2;
+    margin: 0; 
+}
+
+
+.fila-review{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.column{
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*FORM*/
+form{
+    border: 2px solid #f54040;
+    width: 430px;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Shanti', sans-serif;
+    color: #fff2f2;
+}
+
+textarea,
+input{
+    display: block;
+    width:100%;
+    background-color: #f54040;
+    border: none;
+    border-bottom: #f9bc60;
+    padding: 5px;
+    font-family: 'Shanti', sans-serif;
+    color: #fff2f2;
+}
+
+textarea{
+    resize: none;
+}
+
+#Formulario{
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+
+.h1-form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff2f2;
+    margin: 0;
+}
+
+/*selector de atributo*/
+input[type=submit]{
+
+    color: #e8e4e6;
+    border-bottom: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #001e1d;
+
+}
+
+
+
+/*footer*/
+.footer{
+    background-color: black;
+    padding-bottom: 2em;
+    padding-top: 6em;
+    display: flex;
+    justify-content: space-around;
+    color: #fff2f2 ;
+}
+
+.h3-footer{
+    font-size: 35px;
+    padding-bottom: 0em;
+}
+
+.p-footer{
+    font-size: 20px;
+    line-height: 3em;
+}
+
+.h4-footer{
+    font-size: 30px;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    display: flex;
+    padding-right: 6em;
+    font-weight: 600;
+
+}
+
+
+.div-icono{
+    display: flex;
+}
+
+
+.icono-rs{
+    width: 50px;
+    display: flex;
+    margin-right: 2em;
+}
